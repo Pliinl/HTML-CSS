@@ -1,0 +1,36 @@
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Thiết lập chiều cao của body là 100% chiều cao của viewport */
+}
+
+.container {
+    text-align: center; /* Căn giữa nội dung bên trong container */
+}
+
+    .bigDiv {
+        padding: 30px;
+        border: 4px dashed black;
+        border-radius: 30px;
+
+    }
+
+    .paragraph {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .image1 img {
+        text-align: center;
+        width: 180px;
+        height: 220px;
+        margin: 20px;
+    }
+
+    .image2 img {
+        text-align: center;
+        width: 180px;
+        height: 180px;
+        margin: 20px;
+    }

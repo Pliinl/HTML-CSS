@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            max-width: 100%;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        #head {
+            background-color: rgb(240, 184, 184);
+            height: 80%;
+        }
+
+        #left {
+            background-color: rgb(178, 234, 247);
+        }
+
+        #center {
+            background-color: rgb(100, 190, 215);
+        }
+
+        #right {
+            background-color: rgb(0, 121, 151);
+        }
+
+        #end {
+            background-color: rgb(219, 138, 138);
+            height: 80%;
+            clear: both;
+        }
+
+        /* Laptop or Desktop */
+        @media screen and (min-width:769px) {
+            #head {
+                height: 80px;
+            }
+
+            #left {
+                width: 55%;
+                height: 500px;
+                float: left;
+            }
+
+            #center {
+                width: 50%;
+                height: 500px;
+                float: left;
+            }
+
+            #right {
+                width: 25%;
+                height: 500px;
+                float: left;
+            }
+
+            #end {
+                height: 80px;
+                clear: both;
+            }
+        }
+
+        /* Máy tính bảng */
+        @media screen and (min-width: 577px) and (max-width: 768px) {
+            #left {
+                width: 30%;
+                height: 400px;
+                float: left;
+            }
+
+            #center {
+                width: 70%;
+                height: 400px;
+                float: left;
+            }
+
+            #right {
+                width: 100%;
+                height: 100px;
+            }
+        }
+
+        /* Điện thoại */
+        @media screen and (min-width:0px) and (max-width: 576px) {
+
+            #left,
+            #center,
+            #right {
+                width: 100%;
+            }
+
+            #left {
+                height: 120px;
+            }
+
+            #center {
+                height: 150px;
+            }
+
+            #right {
+                height: 200px;
+            }
+        }
+    </style>
+
+    <div id="head">
+        <p>Head</p>
+    </div>
+    <div id="left">
+        <p>Left</p>
+    </div>
+    <div id="center">
+        <p>Center</p>
+    </div>
+    <div id="right">
+        <p>Right</p>
+    </div>
+    <div id="end">
+        <p>End</p>
+    </div>
+</body>
+
+</html>

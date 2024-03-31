@@ -1,0 +1,85 @@
+ body {
+      background-color: rgb(230, 225, 242);
+      padding: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .boder1, .boder2, .boder3, .boder4, .boder5, .boder6, .boder7, .boder8, .boder9, .boder10, .boder11, .boder12, .boder13 {
+    width: 42%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid rgb(224, 217, 244);
+    margin-bottom: 15px;
+    line-height: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(41, 41, 241);
+    font-size: 15px;
+}
+
+.h1 {
+    font-size: 11pt;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.text1 {
+    font-size: 11pt;
+    line-height: 15pt;
+    letter-spacing: 0;
+}
+
+.b1, .b2 {
+    font-weight: 600;
+}
+
+.text2 {
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+}
+
+.text3, .text4 {
+    color: red;
+}
+
+.b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11 {
+    font-size: 18px;
+}
+
+.color1, .color2, .color3, .color4, .color5, .color6, .color7 , .color8 , .color9 , .color10, .color11  {
+    color: red;
+}
+
+.table2 {
+    width: 100%; 
+}
+
+.end1 {
+    width: 42%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+
+.end2 {
+    text-align: center;
+}
+
+.end3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+ .left {
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+ }
+
+ .right {
+    color: blue;
+    border: none;
+    background-color: rgb(230, 225, 242); 
+ }

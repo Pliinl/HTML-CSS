@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemu</title>
+</head>
+<style>
+    * {
+        list-style-type: none;
+        line-height: 50px;
+        font-weight: bold;
+        color: rgb(0, 34, 255);
+        background-color: rgb(211, 250, 250);
+    }
+
+    .menu2,
+    .menu3 {
+        display: none;
+
+    }
+
+    .menu1-3:hover .menu2 {
+        display: block;
+    }
+
+    .menu2-3:hover .menu3 {
+        display: block;
+    }
+
+    .menu1-3 {
+        position: relative;
+        width: 8%;
+    }
+
+    .menu2 {
+        width: 150%;
+        position: absolute;
+        left: 80%;
+        top: 100%;
+    }
+
+    .menu2-3 {
+        position: relative;
+        
+    }
+
+    .menu3 {
+        position: absolute;
+        top: 1%;
+        left: 105%;
+        width: 90%;
+    }
+
+    #color {
+        background-color: white;
+        padding-left: 2%;
+    }
+</style>
+
+<body>
+    <ul class="menu1">
+        <li id="color" class="menu1-3">KHÓA HỌC
+            <ul class="menu2">
+                <li id="color">KỸ SƯ CNTT - ĐẠI HỌC</li>
+                <li id="color">BOOTCAMP FULL-TIME</li>
+                <li id="color">BOOTCAMP PAST-TIME</li>
+                <li id="color" class="menu2-3"> KHÓA HỌC MIỄN PHÍ
+                    <ul id="color" class="menu3">
+                        <li id="color">NHẬP MÔN LẬP TRÌNH</li>
+                        <li id="color">NHẬP MÔN HTML/CSS</li>
+                        <li id="color">NHẬP MÔN BOOTSTRAP</li>
+                    </ul>
+                </li>
+                <li id="color">KHÓA HỌC TỪ XA</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+#head {
+    height: 100px;
+    background-color: aqua;
+    overflow: auto;
+
+}
+
+#head-link {
+    background-color: rgb(21, 89, 224);
+
+}
+
+#head-link ul li {
+    display: inline-block;
+    color: white;
+
+}
+
+#head-link ul {
+    width: 200px;
+    margin: auto;
+
+}
+
+#left {
+    width: 20%;
+    height: 300px;
+    background-color: rgb(2, 55, 55);
+    float: left;
+
+}
+
+#content {
+    width: 50%;
+    height: 300px;
+    background-color: rgb(4, 4, 85);
+    float: left;
+
+}
+
+#right {
+    width: 30%;
+    height: 300px;
+    background-color: blueviolet;
+    float: left;
+
+}
+
+#footer {
+    height: 30px;
+    background-color: brown;
+    clear: both;
+    
+}

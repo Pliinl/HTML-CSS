@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.text {
+    width: 30%;
+    height: 27px;
+}
+
+#table1 {
+    width: 15%;
+}
+#text1 {
+    width: 90%;
+    height: 15px;
+}
+#text2 {
+    width: 10%;
+    height: 15px;
+}
+
+#textarea {
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.number {
+    width: 15%;
+    text-align: center;
+}
+.number1 {
+    line-height: 2.8;
+}
+.content {
+    width: 40%;
+    text-align: left;
+}
+tr:hover, div:hover {
+    background-color: rgb(181, 245, 248);
+}
+
+#big {
+    font-size: 15px;
+}
+
+button:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(122, 253, 255);
+}

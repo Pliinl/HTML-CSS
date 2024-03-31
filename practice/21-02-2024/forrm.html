@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oder Form</title>
+</head>
+
+<body>
+    <style>
+        form {
+            border: 1px solid;
+            width: 25%;
+            margin: 20px;
+            box-shadow: 0 0 40px rgb(8, 6, 149);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 20px;
+            border: 4 solid;
+        }
+
+        div {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <form action="#">
+        <div>
+            <h1>Oder Form</h1>
+            <label for=" "><b>1. What would you like to buy?</b></label><br>
+            <select name=" " id=" " style="width: 30%; height: 27px;">
+                <option value="">Mì gói</option>
+                <option value="">Cafe</option>
+                <option value="">Hot tea</option>
+                <option value="">Beer</option>
+            </select><br><br>
+
+            <label for=""><b>2. How mant would you like to oder</b>?</label><br>
+            <input type="radio" name="Oder" checked> <span>1 - $10</span> <br>
+            <input type="radio" name="Oder"> <span>2 - $20</span> <br>
+            <input type="radio" name="Oder"> <span>3 - $25</span> <br>
+            <br>
+
+            <label for="oder"><b>Where would you like to oder?</b></label><br>
+            <input type="checkbox" name="place"> <span>Hà Nội</span>
+            <input type="checkbox" name="place"> <span>Hồ Chí Minh</span><br>
+            <input type="checkbox" name="place"> <span>Đà Nẵng</span>
+            <input type="checkbox" name="place"> <span>Huế</span>
+            <input type="checkbox" name="place"> <span>Quãng Trị</span>
+            <br>
+
+            <label for="name"><b>Name</b> <span style="color: rgb(255, 0, 0);">*</span></label><br>
+            <input type="text" id="name" placeholder="Fist Name" style="width: 35%; height: 20px;">
+            <input type="text" id="name" placeholder="Last Name" style="width: 35%; height: 20px;">
+            <br><br>
+
+            <label for="email"><b>Email</b></label><br>
+            <input type="text" id="email" style="width: 80%; height: 20px;">
+            <br><br>
+
+            <label for="form"><b>Password</b></label><br>
+            <input type="password" id="form" style="width: 25%; height: 20px;"> -
+            <input type="text" style="width: 25%; height: 20px;"> -
+            <input type="text" style="width: 25%; height: 20px;">
+            <br><br>
+            <label for="opinion"><b>Opinion</b></label><br>
+            <textarea name="" id="opinion" cols="30" rows="10"></textarea>
+            <br><br>
+            <button style="width: 20%; height: 25px;"><b><u>Submit</u></b></button>
+            <button style="width: 20%; height: 25px;"><b><u>Delete</u></b></button>
+            <!-- hoặc có thể sử dụng Submit bằng: <input type="button" value="Submit"> -->
+        </div>
+    </form>
+</body>
+
+</html>

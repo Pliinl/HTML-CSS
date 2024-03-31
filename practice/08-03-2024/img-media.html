@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Responsive Image Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            background-color: #c5c7ca;
+        }
+
+        /* laptop */
+        @media only screen and (min-width: 701px) {
+            .img-text {
+                max-width: 25%;
+            }
+        }
+
+        /* ipad */
+        @media only screen and (max-width: 700px) {
+            .img-text {
+                max-width: 50%;
+            }
+        }
+
+        /* smartphone */
+        @media only screen and (max-width: 500px) {
+            .img-text {
+                max-width: 100%;
+            }
+        }
+
+        .img {
+            padding: 3%;
+            border: 1px solid #9b9797;
+            background-color: rgb(213, 226, 245);
+        }
+
+        .img:hover {
+            border: 1px solid rgb(102, 100, 100);
+        }
+
+        .img img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .text {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .img-text {
+            padding: 0 6px;
+            float: left;
+            max-width: 25%;
+        }
+
+        .text-end {
+            clear: both;
+            padding: 6px;
+        }
+    </style>
+</head>
+<!--  -->
+
+<body>
+    <h2>Responsive Image Gallery</h2>
+    <h4>Resize the browser window to see the effect.</h4>
+
+    <div class="img-text">
+        <div class="img">
+            <img src="img_fjords.jpg" alt="Trolltunga Norway" title="Trolltunga Norway">
+
+            <div class="text">Add a description of the image here</div>
+
+        </div>
+    </div>
+
+    <div class="img-text">
+        <div class="img">
+            <img src="img_forest.jpg" alt="Forest" title="Forest">
+            <div class="text">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="img-text">
+        <div class="img">
+            <img src="img_lights.jpg" alt="Northern Lights" title="Northern Lights">
+            <div class="text">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="img-text">
+        <div class="img">
+            <img src="img_mountains.jpg" alt="Mountains" title="Mountains">
+            <div class="text">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="text-end">
+        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than
+            700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images
+            side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+    </div>
+
+</body>
+
+</html>

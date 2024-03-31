@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Research Survey</title>
+</head>
+
+<body>
+    <h1>Market Research Survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <hr>
+    <!-- Age -->
+    <div>
+        <label><b>What is your age range?</b></label><br>
+        <select class="text">
+            <option value="28-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-50">35-50</option>
+            <option value="50+">50+</option>
+        </select><br><br>
+    </div>
+    <!-- Income -->
+    <div>
+        <label><b>Is your yearly income range?</b> </label><br>
+        <select class="text">
+            <option value="$0 - $25,000">$0 - $25,000</option>
+            <option value="$0 - $25,000">$0 - $25,000</option>
+            <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+            <option value="$100,000+">$100,000+</option>
+        </select><br><br>
+    </div>
+    <!-- Gender -->
+    <div>
+        <label><b>Gender Identity</b></label><br>
+        <input type="radio" name="gender"><span>Male</span><br>
+        <input type="radio" name="gender"><span>Female</span><br>
+        <input type="radio" name="gender"><span>Nonbinary</span><br>
+        <table style="width: 10%;">
+            <tr>
+                <td><input type="radio" name="gender"></td>
+                <td><span>Other</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="text"><input type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label style="display: block; width: 600%;">
+                        Maximum of:
+                        <var>250</var>
+                        characters.
+                        Currently Used:
+                        <var>0</var>
+                        characters.
+                    </label>
+                </td>
+            </tr>
+        </table><br>
+    </div>
+    <!-- Product reviews -->
+    <div>
+        <label><b>Which of the following products have your purchased in the last 2 months. Please check all
+                that apply.</b></label><br>
+        <input type="checkbox" name="product"><span>Product 1</span><br>
+        <input type="checkbox" name="product"><span>Product 2</span><br>
+        <input type="checkbox" name="product"><span>Product 3</span><br>
+    </div>
+    <!-- Use the product -->
+    <div>
+        <label><b>How often would you use our new product?</b></label><br>
+        <input type="radio" name="dollar"><span>Daily</span><br>
+        <input type="radio" name="dollar"><span>Weekly</span><br>
+        <input type="radio" name="dollar"><span>Monthly</span><br>
+    </div>
+    <!-- Pay -->
+    <div>
+        <label for=" "><b>What would you pay for the new product?</b></label><br>
+        <table id="table1">
+            <tr>
+                <td><b>$</b></td>
+                <td><input id="text1" input="text"></td>
+                <td>.</td>
+                <td><input id="text2" type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Dollars</td>
+                <td></td>
+                <td>Cents</td>
+            </tr>
+        </table>
+    </div><br>
+    <!-- New product features -->
+    <div>
+        <label for=" "><b>What features would you like to see in the new product.</b></label><br>
+        <textarea name=" " id="textarea" cols="30" rows="10" spellcheck="true"></textarea>
+    </div>
+    <!-- Evaluate -->
+    <p>Please rate your level of agreement with the following statements.</p>
+    <table border="1">
+        <tr class="number1">
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+        <tr>
+            <td class="content"><b>Our products are priced fairly.</b></td>
+            <td class="number">
+                <input type="radio" name="price"><br><span>1</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="price"><br><span>2</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="price"><br><span>3</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="price"><br><span>4</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="content"><b>Our products are high quality.</b></td>
+            <td class="number">
+                <input type="radio" name="quality"><br><span>1</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="quality"><br><span>2</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="quality"><br><span>3</span>
+            </td class="number">
+            <td class="number">
+                <input type="radio" name="quality"><br><span>4</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="content"><b>You would recommend our product to a friend or coworker.</b></td>
+            <td class="number">
+                <input type="radio" name="introduce"><br><span>1</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="introduce"><br><span>2</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="introduce"><br><span>3</span>
+            </td>
+            <td class="number">
+                <input type="radio" name="introduce"><br><span>4</span>
+            </td>
+        </tr>
+    </table><br>
+    <!-- Submit -->
+    <button id="big"><b>Submit</b></button><br>
+    <!-- Google policies and terms -->
+    <p>This site is protected by reCAPTCHA Enterprise and the Google
+        <a href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a>
+        and
+        <a href="https://policies.google.com/privacy?hl=en-US">Terms of Service</a>
+        apply.
+    </p>
+
+</body>
+<link rel="stylesheet" href="./survey.css">
+
+</html>
