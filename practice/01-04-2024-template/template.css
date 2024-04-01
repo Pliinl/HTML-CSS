@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+/* header */
+.header__logo img {
+    max-width: 200px;
+    /* Kích thước tối đa của hình ảnh */
+    height: auto;
+    /* Giữ tỷ lệ khung hình */
+}
+
+.header__top-logo {
+    margin: auto;
+    width: 60%;
+}
+
+.header__top-nav {
+    text-align: center;
+    /* Canh giữa nội dung */
+}
+
+.header__nav {
+    padding: 6px;
+    /* Khoảng cách giữa các phần tử */
+}
+
+.nav__link {
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    color: #333;
+    /* Màu chữ */
+    padding: 10px;
+    /* Khoảng cách giữa nội dung và viền */
+}
+
+.nav__link:hover {
+    background-color: #f0f0f0;
+    /* Màu nền khi di chuột qua */
+}
+
+.nav__link--btn {
+    border: 2px solid rgb(93, 236, 186);
+    /* Màu viền của nút */
+    background-color: #ffffff;
+    /* Màu nền của nút */
+    color: #06b186;
+    /* Màu chữ của nút */
+    border-radius: 3px;
+    /* Bo tròn viền nút */
+    margin: auto;
+}
+
+.nav__link--btn:hover {
+    background-color: #67e0e2;
+    /* Màu nền khi di chuột qua */
+}
+
+/* banner text-1*/
+.header__banner {
+    background: url(./images/slider.jpg);
+    /* Link Image */
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    height: 450px;
+    line-height: 3;
+    /* Khoảng cách giữa các hàng */
+}
+
+.header__title {
+    font-size: 70px;
+    padding-top: 60px;
+}
+
+.header__subtitle {
+    font-size: 15px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.header__paragraph {
+    font-size: 15px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+/* banner text-2 */
+.full-container {
+    width: 100%;
+    /* Chiều rộng 100% */
+}
+
+.event {
+    display: flex;
+    /* Sử dụng flexbox */
+    justify-content: space-between;
+    /* Căn các phần tử ở hai bên */
+    align-items: center;
+    /* Căn các phần tử theo trục dọc */
+}
+
+.event__next {
+    flex-grow: 1;
+    /* Mở rộng phần này để lấp đầy không gian còn lại */
+}
+
+.event__next-event {
+    font-weight: bold;
+    /* Đậm */
+    color: green;
+    /* Màu xanh lá */
+}
+
+.event__timing,
+.event__details {
+    display: block;
+    /* Hiển thị dưới dạng khối */
+}
+
+.event__timing {
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    color: #333;
+    /* Màu chữ */
+    font-size: 18px;
+    /* Kích thước chữ */
+}
+
+.event__details {
+    margin-top: 5px;
+    /* Khoảng cách từ trên xuống */
+}
+
+.event__register {
+    text-align: right;
+    /* Căn phải */
+}
+
+.event__btn {
+    display: inline-block;
+    /* Hiển thị như khối mở rộng */
+    padding: 10px 20px;
+    /* Khoảng cách từ viền */
+    background-color: #0cc7ae;
+    /* Màu nền */
+    color: white;
+    /* Màu chữ */
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    border-radius: 3px;
+    /* Bo tròn viền */
+}
+
+.event__btn:hover {
+    background-color: #047a6a;
+    /* Màu nền khi di chuột qua */
+}
+
+/* Get Involved */
+
+/* Ẩn hình ảnh */
+.collaborate__logo[style="display:none"] {
+    display: none;
+}
+
+/* Căn giữa tiêu đề */
+.block-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Các khối hợp tác */
+.collaborate__block {
+    text-align: center;
+    /* Căn giữa nội dung trong khối */
+    margin-bottom: 30px;
+    /* Khoảng cách dưới giữa các khối */
+}
+
+/* Định dạng tiêu đề khối */
+.collaborate__subtitle {
+    font-size: 24px;
+    /* Kích thước chữ tiêu đề */
+    margin-top: 10px;
+    /* Khoảng cách từ trên xuống */
+}
+
+/* Định dạng đoạn văn */
+.collaborate__paragraph {
+    font-size: 16px;
+    /* Kích thước chữ đoạn văn */
+    line-height: 1.5;
+    /* Độ dài dòng */
+    margin-bottom: 10px;
+    /* Khoảng cách dưới */
+}
+
+.collaborate__around {
+    display: flex;
+    /* Sử dụng flexbox */
+    justify-content: space-between;
+    /* Các phần tử được căn đều với khoảng cách giữa chúng */
+}
+
+/* Định dạng liên kết */
+.collaborate__link {
+    display: inline-block;
+    /* Hiển thị như khối mở rộng */
+    padding: 10px 20px;
+    /* Khoảng cách từ viền */
+    background-color: #06aab9;
+    /* Màu nền */
+    color: #fff;
+    /* Màu chữ */
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    border-radius: 5px;
+    /* Bo tròn viền */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.collaborate__link:hover {
+    background-color: #00b3aa;
+    /* Màu nền khi di chuột qua */
+}
+
+.collaborate__block .collaborate__logo {
+    max-width: 100%;
+    /* Đặt kích thước tối đa của hình ảnh */
+    width: 30%;
+    /* Làm cho hình ảnh co giãn hoặc co lại sao cho bằng nhau */
+    height: 40%;
+    /* Giữ tỷ lệ khung hình */
+}
+
+/* Our Mission */
+
+/* Container */
+.container {
+    max-width: 1200px;
+    /* Chiều rộng tối đa */
+    margin: 0 auto;
+    /* Căn giữa trên trang */
+}
+
+/* Xóa float và padding của clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Mission */
+.mission {
+    padding: 50px 0;
+    /* Khoảng cách từ trên và dưới */
+}
+
+.mission-text {
+    margin-bottom: 20px;
+    /* Khoảng cách dưới */
+}
+
+.block-title {
+    font-size: 36px;
+    /* Kích thước tiêu đề */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới */
+}
+
+.mission__subtitle {
+    font-size: 18px;
+    /* Kích thước tiêu đề phụ */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới */
+}
+
+.mission__invitation {
+    font-size: 24px;
+    /* Kích thước tiêu đề mời */
+}
+
+/* Mission Icon */
+.mission-block-icon {
+    display: flex;
+    /* Sử dụng flexbox */
+    justify-content: space-between;
+    /* Các phần tử được căn đều với khoảng cách giữa chúng */
+    flex-wrap: wrap;
+    /* Các phần tử sẽ xuống dòng khi không đủ không gian */
+    background-color: #d6d9dc;
+}
+
+.mission__goal {
+    flex-basis: calc(33.333% - 20px);
+    /* Kích thước cơ sở của mỗi phần tử */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới */
+    text-align: center;
+    /* Căn giữa nội dung */
+}
+
+.mission__icon {
+    font-size: 40px;
+    /* Kích thước biểu tượng */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới */
+}
+
+.mission__title {
+    font-size: 24px;
+    /* Kích thước tiêu đề */
+    margin-bottom: 10px;
+    /* Khoảng cách dưới */
+    color: #06aeb1;
+}
+
+.mission__details {
+    font-size: 16px;
+    /* Kích thước đoạn văn */
+}
+
+/* footer */
+.footer {
+    background-color: #d6d9dc;
+    /* Màu nền */
+    padding: 20px 0;
+    /* Khoảng cách padding từ trên và dưới */
+}
+
+.footer__social {
+    text-align: center;
+    /* Căn giữa nội dung */
+}
+
+.footer__social a {
+    display: inline-block;
+    /* Hiển thị như khối mở rộng */
+    margin: 0 10px;
+    /* Khoảng cách giữa các biểu tượng */
+    color: #333;
+    /* Màu chữ */
+    font-size: 30px;
+    /* Kích thước chữ */
+}
+
+.footer__social a:hover {
+    color: #079f95;
+    /* Màu chữ khi di chuột qua */
+}
+
+.footer__copyright {
+    margin-top: 10px;
+    /* Khoảng cách từ phần social đến phần bản quyền */
+    font-size: 14px;
+    /* Kích thước chữ */
+    color: #333;
+    /* Màu chữ */
+}
+
+.footer__copyright a {
+    color: #08a4aa;
+    /* Màu chữ cho liên kết */
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+}
+
+.footer__copyright a:hover {
+    text-decoration: underline;
+    /* Gạch chân khi di chuột qua */
+}
