@@ -1,43 +1,63 @@
+:root {
+    /* COLORS */
+    --white: #E2D3F4;
+    --gray: #333;
+    --blue: #013DC4;
+    --lightblue: #008997;
+
+    /* RADII */
+    --button-radius: 0.7rem;
+
+    /* SIZES */
+    --max-width: 758px;
+    --max-height: 420px;
+
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 250, 250);
 }
+
 * {
     box-sizing: border-box;
 }
 
 .logo {
-    max-width: 10%;
+    width: 10%;
     float: left;
     margin-top: 8px;
     margin-left: 100px;
     padding-top: 10px;
-    padding: auto;
 }
 
 #menu1 {
-    background-color:rgb(250, 250, 250);
-    border: 2px solid rgb(92, 61, 215);
-    border-radius: 10px;
-    box-shadow: 0 0 30px rgba(0, 121, 241, 0.7);
+    background-color: rgb(250, 250, 250);
+    border: 5px solid var(--blue);
+    border-radius: 15px;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .search {
+    caret-color: rgb(59, 59, 216);
     font-size: 12px;
     width: 60%;
     height: 35px;
     border-radius: 10px;
     margin-left: -15%;
-    border-color: rgb(72, 122, 237);
+    border-color: var(--blue);
     text-transform: capitalize;
-    box-shadow: 0 0 2px rgba(0, 121, 241, 0.7);
-    transition: background-color 0.1s;
-    &:active {
-        background-color:rgb(162, 187, 241);
-      }
+    transition: background-color 0.2s;
+}
+
+.search:active {
+    background-color: rgb(115, 151, 230);
 }
 
 .login {
@@ -48,16 +68,18 @@ body {
     transform: translate(-40%, 40%);
 }
 
-#menu1 ul li{
+#menu1 ul li {
     display: inline-block;
     font-weight: bold;
-    color: rgb(72, 122, 237);
+    color: var(--white);
 }
- 
+
 #menu2 {
-    background-color: rgb(72, 122, 237);
-    color: white;
-    border-radius: 5px;
+    margin-left: 11%;
+    margin-right: 11%;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 10px;
 }
 
 #menu2 ul {
@@ -67,27 +89,60 @@ body {
     text-align: center;
 }
 
-#menu2  ul li {
+#menu2 ul li {
     display: inline-block;
     font-weight: bold;
+    z-index: 1;
 }
 
 #color {
-    width: 9%;
+    width: 12%;
+}
+
+.mon1 {
+    display: flex;
+    background-color: var(--blue);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+.item {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding-top: 8px;
+    border-radius: 10px;
+}
+
+.item:hover {
+    width: 10%;
+    background-color: rgb(20, 76, 208);
 }
 
 #select {
     width: 100%;
     height: 25px;
-    color: white;
-    background-color:rgb(72, 122, 237);
+    color: var(--white);
+    background-color: var(--blue);
     border: none;
     border-radius: 4px;
     font-weight: bold;
     transition: background-color 0.5s;
-    &:active {
-        background-color: rgb(150, 177, 241);
-      }
+}
+
+#select:hover {
+    background-color: rgb(150, 177, 241);
 }
 
 li {
@@ -98,10 +153,10 @@ li {
     margin-top: 30px;
     height: 10px;
     color: white;
-    background-color:transparent;
+    background-color: transparent;
     border: none;
     border-radius: 4px;
-    font-weight: bold; 
+    font-weight: bold;
     width: 75%;
 }
 
@@ -109,40 +164,49 @@ li {
     color: rgb(0, 0, 0);
 }
 
-.color {
-    width: 100%;
-}
-
-.category-extend, .nation-extend, .year-extend, .top-extend{
+.category-extend,
+.nation-extend,
+.year-extend,
+.top-extend {
     display: none;
 }
 
-.category:hover .category-extend, .nation:hover .nation-extend, .year:hover .year-extend, .top:hover .top-extend {
+.category:hover .category-extend,
+.nation:hover .nation-extend,
+.year:hover .year-extend,
+.top:hover .top-extend {
     display: block;
 }
 
-.category, .nation, .year, .top {
+.category,
+.nation,
+.year,
+.top {
     position: relative;
 }
 
-.category-extend, .nation-extend, .year-extend, .top-extend {
+.category-extend,
+.nation-extend,
+.year-extend,
+.top-extend {
     position: absolute;
     top: 82%;
     left: -2%;
     list-style-type: none;
     line-height: 20px;
-    color: rgb(0, 34, 255);
-    background-color: rgb(72, 122, 237);
+    color: var(--white);
+    background-color: var(--blue);
 }
 
 .btn-bg {
+
     text-align: center;
     font-weight: bold;
     background-color: rgb(72, 122, 237);
     border: none;
-    color: #fff;
+    color: var(--white);
     padding: 5px 0px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-left: 7px;
     padding-right: 7px;
 }
@@ -150,11 +214,139 @@ li {
 .btn-bg:hover {
     width: 105%;
     transition: background-color 0.5s;
-    &:active {
-        background-color: rgb(162, 187, 241);
-      }
-
 }
 
+.btn-bg:hover {
+    background-color: rgb(8, 72, 210);
+}
 
+main {
+    color:var(--white);
+    background-color: rgb(226, 226, 233);
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex-grow: wrap;
+    border-radius: 10px;
+}
 
+.card-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 9px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.card .layer {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75%;
+    opacity: 0;
+    transition: 0.3ms;
+}
+
+.card .info {
+    position: absolute;
+    bottom: -50%;
+    padding: 15px;
+    opacity: 0;
+    transition: 0.5s bottom, 1.75s opacity;
+}
+
+.info h1 {
+    text-align: left;
+    font-size: 15px;
+}
+
+.info p {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.info button {
+    background: red;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.info button:hover {
+    background-color: rgb(5, 64, 193);
+}
+
+.card:hover,
+.card:hover img,
+.card:hover layer {
+    transform: scale(1.1);
+}
+
+.card:hover>.layer {
+    opacity: 1;
+}
+
+.card:hover>.info {
+    bottom: 0;
+    opacity: 1;
+}
+
+.card-group:hover>.card:not(:hover) {
+    filter: blur(5px);
+}
+
+.mon2 {
+    display: flex;
+    background-color: var(--blue);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mon2 .item {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    background-color: var(--blue);
+    color:var(--white);
+    padding-top: 8px;
+    border-radius: 10px;
+}
+
+.mon2 .item:hover {
+    background-color: rgb(42, 63, 218);
+}
