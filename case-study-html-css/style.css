@@ -127,7 +127,7 @@ body {
 
 .item:hover {
     width: 10%;
-    background-color: rgb(20, 76, 208);
+    background-color: rgb(9, 54, 159);
 }
 
 #select {
@@ -142,7 +142,7 @@ body {
 }
 
 #select:hover {
-    background-color: rgb(150, 177, 241);
+    background-color: rgb(45, 93, 205);
 }
 
 li {
@@ -152,7 +152,7 @@ li {
 #select-private {
     margin-top: 30px;
     height: 10px;
-    color: white;
+    color: var(--white);
     background-color: transparent;
     border: none;
     border-radius: 4px;
@@ -202,7 +202,7 @@ li {
 
     text-align: center;
     font-weight: bold;
-    background-color: rgb(72, 122, 237);
+    background-color: var(--blue);
     border: none;
     color: var(--white);
     padding: 5px 0px;
