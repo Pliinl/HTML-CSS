@@ -232,9 +232,6 @@ main {
 }
 
 .card-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 25px;
     margin: 9px;
 }
@@ -380,3 +377,50 @@ main {
 }
 
 /* End Footers */
+
+
+/* Điều chỉnh phần menu-1 và menu-2 cho màn hình điện thoại */
+@media screen and (max-width: 767px) {
+    #menu-1 {
+        width: 90%; /* Điều chỉnh chiều rộng */
+        margin-left: auto; /* Điều chỉnh lề trái */
+        margin-right: auto; /* Điều chỉnh lề phải */
+    }
+
+    .login {
+        margin-right: 10%;
+    }
+    .btn-bg {
+        width: auto;
+        height: auto;
+    }
+    #select {
+        height: auto;
+    }
+    li {
+        display: none;
+    }
+    #menu-1 ul li {
+        font-size: 14px; /* Điều chỉnh kích thước font chữ */
+    }
+
+    .search {
+        width: 100%; /* Điều chỉnh chiều rộng ô tìm kiếm */
+    }
+
+    #menu-2 {
+        width: 90%; /* Điều chỉnh chiều rộng */
+        margin-left: auto; /* Điều chỉnh lề trái */
+        margin-right: auto; /* Điều chỉnh lề phải */
+    }}
+
+/* Điều chỉnh phần menu-1 và menu-2 cho iPad */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #menu-1 {
+        width: 70%; /* Điều chỉnh chiều rộng */
+    }
+
+    #menu-2 {
+        width: 60%; /* Điều chỉnh chiều rộng */
+    }
+}
