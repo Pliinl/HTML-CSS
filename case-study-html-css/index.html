@@ -4,56 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Fmurfs</title>
+    <title>POPS</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <!-- Logo -->
+    <!-- Logo - Search - Login  -->
     <header>
-        <div id="menu1">
-            <img class="logo" src="image/logo.png" alt="Doraemon">
-            <li><button id="select-private"><input type="search" class="search"
-                        placeholder="Nhập tên phim cần tìm..."></button>
-                <ul class="login">
-                    <li><button id="select"
-                            onclick="window.open('https://pliinl.github.io/html-css/case-study-html-css/in/in.html')">Đăng
-                            nhập</button>
-                    </li>
-                    <li>|</li>
-                    <li><button id="select"
-                            onclick="window.open('https://pliinl.github.io/html-css/case-study-html-css/up/up.html')">Đăng
-                            ký</button>
-                    </li>
-                </ul>
+        <div id="menu-1">
+            <img class="logo" src="/image/logo.jpg">
+            <div id="select-private"><input type="search" class="search" placeholder="Nhập tên phim cần tìm..."></div>
+            <ul class="login">
+                <li> <a href="/in/in.html"><button id="select">Đăng Nhập</button></a></li>
+                <li>|</li>
+                <li>
+                <li> <a href="/up/up.html"><button id="select">Đăng Ký</button></a>
+                </li>
+            </ul>
         </div>
     </header>
+    <!-- End Logo - Search - Login  -->
 
-    <!-- Nemu -->
+    <!-- Menus -->
     <nav>
-        <div id="menu2">
+        <div id="menu-2">
             <ul>
-                <li><button id="select">Trang chủ</button></li>
+                <li><button id="select">Trang Chủ</button></li>
                 <li>|</li>
-                <li><button id="select">Mới cập nhật</button></li>
+                <li><button id="select">Mới Cập Nhật</button></li>
                 <li>|</li>
-                <li><button id="select">Anime bộ</button></li>
+                <li><button id="select">Anime Bộ</button></li>
                 <li>|</li>
-                <li id="color" class="category"><button id="select">Thể loại</button>
+                <li id="color" class="category"><button id="select">Thể Loại</button>
                     <ul class="category-extend">
                         <li class="color"><button class="btn-bg">Harem</button></li>
-                        <li class="color"><button class="btn-bg">Hành động</button></li>
-                        <li class="color"><button class="btn-bg">Hài hước</button></li>
-                        <li class="color"><button class="btn-bg">Học đường</button></li>
-                        <li class="color"><button class="btn-bg">Đời thường</button></li>
-                        <li class="color"><button class="btn-bg">Siêu năng lực</button></li>
-                        <li class="color"><button class="btn-bg">Thể thao</button></li>
-                        <li class="color"><button class="btn-bg">Xuyên không</button></li>
+                        <li class="color"><button class="btn-bg">Hành Hộng</button></li>
+                        <li class="color"><button class="btn-bg">Hài Hước</button></li>
+                        <li class="color"><button class="btn-bg">Học Đường</button></li>
+                        <li class="color"><button class="btn-bg">Đời Thường</button></li>
+                        <li class="color"><button class="btn-bg">Siêu Năng Lực</button></li>
+                        <li class="color"><button class="btn-bg">Thể Thao</button></li>
+                        <li class="color"><button class="btn-bg">Xuyên Không</button></li>
 
                     </ul>
                 </li>
                 <li>|</li>
-                <li id="color" class="nation"><button id="select">Quốc gia</button>
+                <li id="color" class="nation"><button id="select">Quốc Gia</button>
                     <ul class="nation-extend">
                         <li class="color"><button class="btn-bg">Việt Nam</button></li>
                         <li class="color"><button class="btn-bg">Nhật Bản</button></li>
@@ -73,31 +69,34 @@
                 <li>|</li>
                 <li id="color" class="top"><button id="select">Top Anime</button>
                     <ul class="top-extend">
-                        <li class="color"><button class="btn-bg">Theo ngày</button></li>
-                        <li class="color"><button class="btn-bg">Theo tháng</button></li>
-                        <li class="color"><button class="btn-bg">Theo năm</button></li>
+                        <li class="color"><button class="btn-bg">Theo Ngày</button></li>
+                        <li class="color"><button class="btn-bg">Theo Tháng</button></li>
+                        <li class="color"><button class="btn-bg">Theo Năm</button></li>
                     </ul>
                 </li>
                 <li>|</li>
-                <li><button id="select">Top yêu thích</button></li>
+                <li><button id="select">Top Yêu Thích</button></li>
                 </li>
                 <li>|</li>
-                <li><button id="select">Hoàn thành</button></li>
+                <li><button id="select">Hoàn Thành</button></li>
             </ul>
         </div>
     </nav>
+    <!-- End Menus -->
 
-    <div class="mon1">
-        <div class="item i1">Thứ hai</div>
-        <div class="item i2">Thứ ba</div>
-        <div class="item i3">Thứ tư</div>
-        <div class="item i4">Thứ năm</div>
-        <div class="item i5">Thứ sáu</div>
-        <div class="item i6">Thứ bảy</div>
-        <div class="item i7">Chủ Nhật</div>
+    <!-- Weeks -->
+    <div class="week">
+        <div class="item">Thứ Hai</div>
+        <div class="item">Thứ Ba</div>
+        <div class="item">Thứ Tư</div>
+        <div class="item">Thứ Năm</div>
+        <div class="item">Thứ Sáu</div>
+        <div class="item">Thứ Bảy</div>
+        <div class="item">Chủ Nhật</div>
     </div>
+    <!-- Weeks -->
 
-    <!-- Main -->
+    <!-- Mains -->
     <main>
         <div class="card-group">
             <div class="card">
@@ -107,7 +106,7 @@
                     <h1>One Piece</h1>
                     <p>Monkey D. Luffy, 1 cậu bé rất thích Đảo hải tặc có ước mơ tìm được kho báu One Piece và trở thành
                         Vua hải tặc - Pirate King.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/one-piece.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -119,7 +118,7 @@
                     <h1>Conan</h1>
                     <p>Mở đầu câu truyện, cậu học sinh trung học 17 tuổi Shinichi Kudo bị biến thành cậu bé Conan
                         Edogawa.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/conan.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -132,7 +131,7 @@
                     <p>Phần đầu trong hai loạt phim hoạt hình được sản xuất bởi Studio Pierrot và Aniplex đã công chiếu
                         khắp Nhật Bản trên mạng lưới truyền hình TV Tokyo và mạng lưới hoạt hình truyền hình vệ tinh
                         Animax vào ngày 3 tháng 10 năm 2002.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/naruto.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -144,7 +143,7 @@
                     <h1>Pokemon</h1>
                     <p>Vào một ngày mới ở vùng Kanto, Satoshi được giáo sư Yukinari Ookido mời đến dự lễ khai trương
                         phòng thí nghiệm của giáo sư Sakuragi tại thành phố Vermillion.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/pokemon.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -157,7 +156,7 @@
                     <p>Các câu chuyện trong Doraemon thường có một công thức chung, đó là xoay quanh những rắc rối hay
                         xảy ra với cậu bé Nobita học lớp bốn, nhân vật chính thứ nhì của bộ truyện. Doraemon có một
                         chiếc túi thần kỳ trước bụng với đủ loại bảo bối của tương lai. </p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/doraemon.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -170,7 +169,7 @@
                     <p>Mở đầu câu chuyện xuất hiện một nam nhân tên Đường Tam bị Đường Môn truy sát, là tông môn nổi
                         tiếng với các loại cơ quan ám khí nhất là “Phật nộ đường liên”. Thân là thiên tài ngàn năm có
                         một nhưng vì chỉ có thân phận ngoại môn đồ.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -184,7 +183,7 @@
                         vạn năm trên Đấu La đại lục, Đường Môn suy thoái. Một đời Thiên Kiêu hoành không xuất thế, Sử
                         Lai Khắc thất quái đời mới có thể hồi sinh được Đường Môn, viết một khúc nhạc về Tuyệt Thế Đường
                         Môn..</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -197,7 +196,7 @@
                     <p>Sau hẹn ước 3 năm, Tiêu Viêm cuối cùng cũng gặp được Huân Nhi ở học viện Già Nam, sau đó hắn kết
                         giao nhiều bạn bè, thành lập Bàn Môn; vì tiếp tục nâng cao thực lực để lên Vân Lam Tông lần 3
                         báo thù cho cha, hắn mạo hiểm đi vào Thiên Phần luyện Khí Tháp thôn phệ Vẫn Lạc Tâm Viêm…</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -210,7 +209,7 @@
                     <p>Thế Giới Hoàn Mỹ cải biên từ tiểu thuyết cùng tên. Hắn vì tu đạo mà sinh, vì ứng kiếp mà đến. Hắn
                         hoá thân thành vô vàn mưa máu, vẩy rơi năm tháng vạn cổ, trải qua vô số tu luyện của thời không
                         và thử thách của dòng chảy tháng năm. Hắn hoá thành vạn cổ, hoá thành tự tại.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -222,21 +221,24 @@
                     <h1>Luyện Khí Mười Vạn Năm</h1>
                     <p>Mười vạn năm trước Thiên Lam Tông vang dội giới tu chân, đệ tử trong tông đều là những đứa con
                         của trời, đánh đâu thắng đó. </p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
     </main>
+    <!-- End Mains -->
 
-    <div class="mon2">
-        <div class="item i1">Top Anime</div>
-        <div class="item i4">Xem nhiều</div>
-        <div class="item i2">Theo ngày</div>
-        <div class="item i3">Theo tuần</div>
-        <div class="item i4">Theo năm</div>
+    <!-- Weeks -->
+    <div class="week">
+        <div class="item">Top Anime</div>
+        <div class="item">Xem Nhiều</div>
+        <div class="item">Theo Ngày</div>
+        <div class="item">Theo Tuần</div>
+        <div class="item">Theo Năm</div>
     </div>
+    <!-- End Weeks -->
 
-    <!-- Main -->
+    <!-- Mains -->
     <main>
         <div class="card-group">
             <div class="card">
@@ -247,7 +249,7 @@
                     <p>Misumi Makoto vốn chỉ là một học sinh trung học bình thường, giỏi bắn cung và đam mê phim lịch
                         sử. Nhưng rồi một ngày kia khi cậu tỉnh lại, thì bỗng phát hiện ra mình đang ở một nơi kỳ quái
                         không để đâu cho hết!</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -260,7 +262,7 @@
                     <p>Trong một thế giới mà những thợ săn, những con người sở hữu khả năng phép thuật, phải chiến đấu
                         với những con quái vật chết người để bảo vệ loài người khỏi sự hủy diệt, một thợ săn nổi tiếng
                         yếu ớt tên là Sung Jin-woo thấy mình ở trong một cuộc đấu tranh sinh tồn dường như bất tận.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -273,7 +275,7 @@
                     <p>Phần đầu trong hai loạt phim hoạt hình được sản xuất bởi Studio Pierrot và Aniplex đã công chiếu
                         Ngày xửa ngày xưa, có một thế giới nơi phép thuật có thể chi phối mọi thứ. Nhưng sâu trong rừng
                         có một thanh niên dành thời gian để luyện tập cơ bắp.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -285,7 +287,7 @@
                     <h1>Bảy Viên Ngọc Rồng Siêu Cấp</h1>
                     <p>Dragon Ball Serie mới có tên là Super hoặc Chou dài tập chiếu trên truyền hình, bối cảnh nối tiếp
                         sau cuộc chiến với Ma nhân Buu !!!</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -297,19 +299,19 @@
                     <h1>Hội Pháp Sư</h1>
                     <p>Câu chuyện về một cô thiếu nữ tên Lucy Heartfilia, khao khát của cô là gia nhập Hội Pháp sư nổi
                         tiếng Fairy Tail. Trên đường phiêu lưu, Lucy đã vô tình gặp gỡ Natsu "Salamander" </p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
         <div class="card-group">
             <div class="card">
-                <img src="./image/hoi-sinh-the-gioi.webp">
+                <img src="/image/hoi-sinh-the-gioi.webp">
                 <div class="layer"></div>
                 <div class="info">
                     <h1>Hồi Sinh Thế Giới</h1>
                     <p>Một ngày định mệnh, cả nhân loại bị hóa đá bởi một tia sáng chói lóa. Sau nhiều thiên niên kỷ,
                         học sinh trung học Taiju tỉnh dậy và thấy mình lạc vào một thế giới của những bức tượng.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -321,7 +323,7 @@
                     <h1>Thanh Gươm Diệt Quỷ: Phố Đèn Đỏ</h1>
                     <p>Diễn biến của Kimetsu No Yaiba - Thanh Gươm Diệt Quỷ Season 2 sẽ dẫn đến cuộc đại chiến lớn là
                         cuộc chạm trán với Thượng Huyền Lục ở Phố Đèn Đỏ.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -331,9 +333,9 @@
                 <div class="layer"></div>
                 <div class="info">
                     <h1>Chào Mừng Đến Với Lớp Học Đề Cao Thực Lực 3</h1>
-                    <p>Trường trung học Koudo Ikusei là một trường hàng đầu có uy tín với các cơ sở hiện đại, nơi có gần
-                        100% sinh viên đi học đại học hoặn tìm được việc làm.</p>
-                    <button>Xem Phim</button>
+                    <p>Trường trung học Koudo Ikusei là một trường hàng đầu có uy tín với các cơ sở hiện đại, nơi có
+                        gần 100% sinh viên đi học đại học hoặn tìm được việc làm.</p>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -345,7 +347,7 @@
                     <h1>Ta Muốn Trở Thành Chúa Tể Bóng Tối!</h1>
                     <p>Như bao người ngưỡng mộ những anh hùng khi còn nhỏ, nhân vật chính của chúng ta lại ngưỡng mộ
                         những con người trong bóng tối.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
@@ -357,17 +359,20 @@
                     <h1>Thần Ấn Vương Tọa</h1>
                     <p>Vào thời khắc mà Ma Tộc cường thế và nhân loại đang bên bờ của sự diệt vong thì Lục Đại Thánh
                         Điện quật khởi mang theo hi vọng dẫn dắt nhân loại bảo vệ mảnh lãnh thổ cuối cùng.</p>
-                    <button>Xem Phim</button>
+                    <a href="/movie/movie.html"><button>Xem Phim</button></a>
                 </div>
             </div>
         </div>
     </main>
+    <!-- End Mains -->
+
+    <!-- Footers -->
 
     <footer class="site-footer">
         <div class="container">
             <div class="footer-top">
                 <div class="footer-logo">
-                    <img src="./image/logo.png" alt="The Fmurfs">
+                    <img src="/image/logo.jpg" alt="The Fmurfs">
                 </div>
                 <div class="footer-links">
                     <ul>
@@ -389,11 +394,12 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <p>&copy; 2024 The Fmurfs. All rights reserved.</p>
+                <p>&copy; 2024 POPS. Đã đăng ký Bản quyền.</p>
             </div>
         </div>
     </footer>
-    
+    <!-- End Footers -->
+
 
 </body>
 
