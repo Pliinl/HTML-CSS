@@ -388,7 +388,7 @@ main {
     }
 
     #menu-1 {
-        width: 100%;
+        width: 90%;
     }
 
     .search {
@@ -397,15 +397,15 @@ main {
     }
 
     .login {
-        width: 80%;
+        width: 35%;
     }
 
     #menu-2 {
-        width: 100%;
+        width: 85%;
     }
 
     .week {
-        width: 80%;
+        width: 60%;
     }
 
     .item {
@@ -415,12 +415,12 @@ main {
     }
 
     main {
-        width: 70%;
+        width: 80%;
     }
 
     .card {
-        width: 250px;
-        height: 350px;
+        width: 140px;
+        height: 240px;
     }
 
     .info h1 {
@@ -467,7 +467,7 @@ main {
     }
 
     #menu-1 {
-        width: 100%;
+        width: 90%;
     }
 
     .search {
@@ -481,11 +481,11 @@ main {
     }
 
     #menu-2 {
-        width: 100%;
+        width: 85%;
     }
 
     .week {
-        width: 70%;
+        width: 50%;
     }
 
     .item {
@@ -571,7 +571,7 @@ main {
         font-size: 12px;
     }
 
-    /* main {
+    main {
         width: 85%;
     }
 
@@ -608,5 +608,5 @@ main {
     .footer-links ul li,
     .footer-social ul li {
         margin-right: 20px;
-    } */
+    }
 }

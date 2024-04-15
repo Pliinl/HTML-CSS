@@ -308,18 +308,18 @@ li {
 /* End Footers */
 
 /* Cho điện thoại */
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 600px)  {
     .logo {
         width: 15%;
         margin-left: 5%;
     }
 
     #menu-1 {
-        width: 80%;
+        width: 90%;
     }
 
     .login {
-        width: 80%;
+        width: 35%;
     }
 
     .search {
@@ -328,19 +328,19 @@ li {
     }
 
     #menu-2 {
-        width: 80%;
+        width: 85%;
     }
 }
 
 /* Cho máy tính bảng */
-@media screen and (min-width: 577px) and (max-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     .logo {
         width: 10%;
         margin-left: 5%;
     }
 
     #menu-1 {
-        width: 80%;
+        width: 100%;
     }
 
     .login {
@@ -352,7 +352,7 @@ li {
         font-size: 12px;
     }
     #menu-2 {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -364,7 +364,7 @@ li {
     }
 
     #menu-1 {
-        width: 80%;
+        width: 90%;
     }
 
     .login {
@@ -373,5 +373,8 @@ li {
 
     .search {
         font-size: 14px;
+    }
+    #menu-2 {
+        width: 85%;
     }
 }
