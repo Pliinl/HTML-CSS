@@ -327,17 +327,21 @@ li {
         margin-left: 15%;
         font-size: 10px;
     }
+
+    #menu-2 {
+        width: 80%;
+    }
 }
 
 /* Cho máy tính bảng */
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 1024px) {
     .logo {
         width: 10%;
         margin-left: 5%;
     }
 
     #menu-1 {
-        width: 75%;
+        width: 80%;
     }
 
     .login {
@@ -348,17 +352,20 @@ li {
     .search {
         font-size: 12px;
     }
+    #menu-2 {
+        width: 80%;
+    }
 }
 
 /* Cho máy tính để bàn */
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1024px) {
     .logo {
         width: 10%;
         margin-left: 5%;
     }
 
     #menu-1 {
-        width: 75%;
+        width: 80%;
     }
 
     .login {

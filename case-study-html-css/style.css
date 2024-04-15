@@ -227,7 +227,6 @@ main {
     flex-grow: wrap;
     border-radius: 10px;
     margin-top: 5px;
-    padding: 10px 10px;
 }
 
 .card-group {
@@ -389,7 +388,7 @@ main {
     }
 
     #menu-1 {
-        width: 80%;
+        width: 100%;
     }
 
     .search {
@@ -402,11 +401,11 @@ main {
     }
 
     #menu-2 {
-        width: 75%;
+        width: 100%;
     }
 
     .week {
-        width: 55%;
+        width: 80%;
     }
 
     .item {
@@ -415,13 +414,13 @@ main {
         font-size: 10px;
     }
 
-    /* main {
-        width: 90%;
+    main {
+        width: 70%;
     }
 
     .card {
-        width: 150px;
-        height: 250px;
+        width: 250px;
+        height: 350px;
     }
 
     .info h1 {
@@ -452,7 +451,7 @@ main {
     .footer-links ul li,
     .footer-social ul li {
         margin-right: 10px;
-    } */
+    } 
 }
 
 
@@ -468,7 +467,7 @@ main {
     }
 
     #menu-1 {
-        width: 75%;
+        width: 100%;
     }
 
     .search {
@@ -478,15 +477,15 @@ main {
 
     .login {
         margin-left: 10%;
-        width: 50%;
+        width: 30%;
     }
 
     #menu-2 {
-        width: 70%;
+        width: 100%;
     }
 
     .week {
-        width: 55%;
+        width: 70%;
     }
 
     .item {
@@ -495,7 +494,7 @@ main {
         font-size: 11px;
     }
 
-    /* main {
+    main {
         width: 80%;
     }
 
@@ -532,7 +531,7 @@ main {
     .footer-links ul li,
     .footer-social ul li {
         margin-right: 15px;
-    } */
+    }
 }
 
 /* For large screens (desktops) */
