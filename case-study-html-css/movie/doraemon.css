@@ -333,7 +333,7 @@ li {
 }
 
 /* Cho điện thoại */
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 600px) {
     .logo {
         width: 15%;
         margin-left: 5%;
@@ -376,6 +376,7 @@ li {
     .search {
         font-size: 12px;
     }
+
     #menu-2 {
         width: 85%;
     }
@@ -399,6 +400,7 @@ li {
     .search {
         font-size: 14px;
     }
+
     #menu-2 {
         width: 85%;
     }
