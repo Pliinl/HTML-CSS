@@ -418,7 +418,7 @@ li {
         font-size: 10px;
     }
 
-    .content-1 .content-2 {
+    .content-1, .content-2 {
         width: 80%;
     }
 
@@ -498,7 +498,7 @@ li {
         font-size: 11px;
     }
 
-    .content-1 .content-2 {
+    .content-1, .content-2 {
         width: 80%;
     }
 
@@ -575,7 +575,7 @@ li {
         font-size: 12px;
     }
 
-    .content-1 .content-2 {
+    .content-1, .content-2 {
         width: 85%;
     }
 
