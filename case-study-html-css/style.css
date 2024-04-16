@@ -418,7 +418,7 @@ li {
         font-size: 10px;
     }
 
-    main {
+    .content-1 .content-2 {
         width: 80%;
     }
 
@@ -435,7 +435,7 @@ li {
         font-size: 8px;
     }
 
-    .info button {
+    .info a {
         padding: 6px 10px;
     }
 
@@ -462,7 +462,7 @@ li {
 /* Dành cho màn hình trung bình (máy tính bảng) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .logo {
@@ -498,7 +498,7 @@ li {
         font-size: 11px;
     }
 
-    main {
+    .content-1 .content-2 {
         width: 80%;
     }
 
@@ -515,7 +515,7 @@ li {
         font-size: 9px;
     }
 
-    .info button {
+    .info a {
         padding: 7px 11px;
     }
 
@@ -541,7 +541,7 @@ li {
 /* Dành cho màn hình lớn (máy tính để bàn) */
 @media only screen and (min-width: 1025px) {
     body {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .logo {
@@ -575,7 +575,7 @@ li {
         font-size: 12px;
     }
 
-    main {
+    .content-1 .content-2 {
         width: 85%;
     }
 
@@ -592,7 +592,7 @@ li {
         font-size: 11px;
     }
 
-    .info button {
+    .info a {
         padding: 8px 12px;
     }
 

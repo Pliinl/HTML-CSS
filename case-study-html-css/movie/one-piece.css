@@ -365,7 +365,7 @@ li {
 /* Dành cho màn hình trung bình (máy tính bảng) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .logo {
@@ -413,7 +413,7 @@ li {
 /* Dành cho màn hình lớn (máy tính để bàn) */
 @media only screen and (min-width: 1025px) {
     body {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .logo {
