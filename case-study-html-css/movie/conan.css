@@ -169,10 +169,10 @@ li {
     border: none;
     color: var(--white);
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn-bg:hover {
-    width: 105%;
     transition: background-color 0.5s;
 }
 

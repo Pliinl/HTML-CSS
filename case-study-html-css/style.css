@@ -203,6 +203,7 @@ li {
     border: none;
     color: var(--white);
     border-radius: 5px;
+    text-decoration: none;
 
 }
 
