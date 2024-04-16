@@ -125,7 +125,7 @@ body {
 
 /* End Weeks */
 
-#select {
+.select {
     height: 25px;
     color: var(--white);
     background-color: var(--blue);
@@ -133,9 +133,11 @@ body {
     border-radius: 4px;
     font-weight: bold;
     transition: background-color 0.5s;
+    padding: 3px;
+    text-decoration: none;
 }
 
-#select:hover {
+.select:hover {
     background-color: var(--hover);
 }
 
@@ -213,7 +215,8 @@ li {
 }
 
 /* Mains */
-main {
+.content-1,
+.content-2 {
     color: var(--white);
     background-color: rgb(79, 79, 79);
     width: 80%;
@@ -223,8 +226,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
-    flex-grow: wrap;
+    flex-wrap: wrap;
     border-radius: 10px;
     margin-top: 5px;
 }
@@ -281,16 +283,18 @@ main {
     margin-top: 3px;
 }
 
-.info button {
+.info a {
     background: red;
     border: none;
     padding: 8px 12px;
     font-weight: bold;
     border-radius: 8px;
     margin-top: 8px;
+    text-decoration: none;
+    color: black;
 }
 
-.info button:hover {
+.info a:hover {
     background-color: rgb(154, 0, 0);
 }
 
@@ -376,7 +380,7 @@ main {
 
 /* End Footers */
 
-/* For small screens (mobile phones) */
+/* Đối với màn hình nhỏ (điện thoại di động) */
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
@@ -397,7 +401,7 @@ main {
     }
 
     .login {
-        width: 35%;
+        width: 100%;
     }
 
     #menu-2 {
@@ -455,7 +459,7 @@ main {
 }
 
 
-/* For medium screens (tablets) */
+/* Dành cho màn hình trung bình (máy tính bảng) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     body {
         font-size: 16px;
@@ -477,7 +481,7 @@ main {
 
     .login {
         margin-left: 10%;
-        width: 30%;
+        width: 45%;
     }
 
     #menu-2 {
@@ -534,7 +538,7 @@ main {
     }
 }
 
-/* For large screens (desktops) */
+/* Dành cho màn hình lớn (máy tính để bàn) */
 @media only screen and (min-width: 1025px) {
     body {
         font-size: 18px;
@@ -554,7 +558,7 @@ main {
     }
 
     .login {
-        width: 28%;
+        width: 30%;
     }
 
     #menu-2 {
